@@ -1,0 +1,754 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&family=Zain:wght@200;300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=REM:ital,wght@0,100..900;1,100..900&family=Zain:wght@200;300;400;700;800;900&display=swap");
+
+body {
+  background-color: #f7f7f7;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  height: 25px;
+  width: auto;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96c93d,
+    #00b09b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-color: #5ab545; */
+}
+.wsp {
+  transition: all 0.7s;
+  height: 70px;
+  width: 70px;
+  background-color: #238b0c;
+  color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 100px 0px black;
+  z-index: 1;
+}
+.wsp:hover {
+  transition: all 0.2s;
+  transform: scale(1.1);
+}
+
+/* PARTE DE BARRA DE NAVEGACION */
+
+.navegacion a:hover {
+  transition: all 0.9s;
+  color: black;
+}
+.navegacion a {
+  transition: all 0.7s;
+  text-decoration: none;
+  color: #034c3c;
+  padding-left: 70px;
+}
+
+.navegacion {
+  text-align: right;
+  font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-right: 60px;
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-color: #f7f7f7; */
+  height: 80px;
+  width: auto;
+}
+
+#logo1 {
+  position: absolute;
+  top: -45px;
+  left: 40px;
+}
+
+/* PARTE DEL INICIO */
+
+.mani {
+  height: 959px;
+  width: 100%;
+  background-color: white;
+}
+#m1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  font-style: normal;
+  text-align: center left;
+  color: #5ab545;
+  padding-top: 300px;
+  padding-left: 198px;
+}
+.m3 {
+  position: absolute;
+  top: 164px;
+  right: 60px;
+}
+.m2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  color: #034c3c;
+  padding-left: 200px;
+}
+
+/* PARTE DE SOBRE NOSOTROS */
+
+#nosotros {
+  height: 600px;
+  width: 100%;
+  /* background-color: #f7f7f7; */
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#n1 {
+  font-family: "Mukta", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: #5ab545;
+  padding-top: 20px;
+}
+.n2 {
+  position: absolute;
+  top: 1180px;
+  right: 60px;
+  height: 400px;
+  width: 900px;
+  /*   background-color: whitesmoke; */
+  /*   background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  border-radius: 35px; */
+}
+#textn1 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #1e1f1f;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#campanita {
+  position: absolute;
+  top: 1120px;
+  left: 130px;
+}
+
+/* PARTE DE SERVICIOS */
+
+#servicios {
+  height: 2300px;
+  width: 100%;
+  background-color: white;
+}
+#s1 {
+  font-family: "Mukta", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  color: #5ab545;
+  padding-top: 80px;
+}
+#s2 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #034c3c;
+  padding-top: 0px;
+}
+
+.item:hover {
+  transition: all 0.7s;
+  transform: scale(1.1);
+}
+
+.item1 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 1950px;
+  left: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgMixto1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 20px;
+}
+#texto1 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 380px;
+}
+#texto2 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 420px;
+}
+#texto3 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 300px;
+  padding-left: 550px;
+  text-decoration: none;
+}
+
+.item2 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 1950px;
+  right: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+
+#imgKermesse1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 20px;
+}
+#texto4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-right: 350px;
+}
+#texto5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+#texto6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 400px;
+  padding-left: 185px;
+  text-decoration: none;
+}
+
+.item3 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 2450px;
+  left: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgPlataforma1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 20px;
+}
+#texto7 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  padding-top: 35px;
+  padding-left: 300px;
+}
+#texto8 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 20px;
+  padding-left: 350px;
+}
+#texto9 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 300px;
+  padding-left: 520px;
+  text-decoration: none;
+}
+
+.item4 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 2450px;
+  right: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgRobot1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 20px;
+}
+#texto10 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 140px;
+}
+#texto11 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+#texto12 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 400px;
+  padding-left: 175px;
+  text-decoration: none;
+}
+
+.item5 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 2950px;
+  left: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgSpa1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 20px;
+}
+#texto13 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+#texto14 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 350px;
+}
+#texto15 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 300px;
+  padding-left: 520px;
+  text-decoration: none;
+}
+
+.item6 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 2950px;
+  right: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgPijamada1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 20px;
+}
+#texto16 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 130px;
+}
+#texto17 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+#texto18 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-left: 160px;
+  text-decoration: none;
+}
+
+.item7 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 3450px;
+  left: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgMalon1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 20px;
+}
+#texto19 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+#texto20 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 350px;
+}
+#texto21 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-top: 400px;
+  padding-left: 505px;
+  text-decoration: none;
+}
+
+.item8 {
+  transition: all 0.7s;
+  position: absolute;
+  top: 3450px;
+  right: 60px;
+  height: 450px;
+  width: 800px;
+  border: 2px solid #e0e0e0;
+  border-radius: 35px;
+  background-color: #e0e0e0;
+}
+#imgAdicionales1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 20px;
+}
+#texto22 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #3d3d3d;
+  padding-top: 40px;
+  padding-left: 160px;
+}
+#texto23 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+  color: #5c5c5c;
+  padding-top: 40px;
+  padding-left: 90px;
+}
+#texto24 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 20px;
+  color: #034c3c;
+  padding-left: 200px;
+  text-decoration: none;
+}
+
+/* CONTACTO */
+
+#contacto {
+  height: 700px;
+  width: 100%;
+}
+
+.formulario {
+  position: absolute;
+  top: 4040px;
+  right: 985px;
+  /* background-color: #e0e0e0; */
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  height: 550px;
+  width: 700px;
+  border-radius: 35px;
+}
+#nombre,
+#mail,
+#comentario {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  text-align: left;
+}
+body {
+  /* background-color: #f7f7f7; */ /* Color de fondo */
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+  width: 600px; /* Ancho del formulario */
+  margin: 25px auto; /* Centra el formulario */
+}
+
+label {
+  display: block;
+  margin-bottom: 25px;
+}
+
+input,
+textarea {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 15px; /* Espacio interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+textarea {
+  height: 200px; /* Altura del textarea */
+  width: 470px;
+}
+
+button {
+  transition: all 0.7s;
+  height: 80px;
+  width: auto;
+  position: absolute;
+  margin-top: 60px;
+  right: 52px;
+  background-color: #5ab545; /* Color del botón */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+}
+#c1 {
+  font-family: "Mukta", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #5ab545;
+  padding-top: 20px;
+}
+#campanita2 {
+  position: absolute;
+  top: 3984px;
+  right: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 400px;
+  width: 100%;
+  /* background-color: #033a2e; */
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+}
+#logo2 {
+  position: absolute;
+  top: 4720px;
+  left: 150px;
+}
+.footer a {
+  transition: all 0.7s;
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #b6b9b9;
+  text-align: left;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer a:hover {
+  transition: all 0.4s;
+  color: white;
+}
+.footer p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+#f1 {
+  font-size: 25px;
+  position: absolute;
+  z-index: 4;
+  padding-top: 140px;
+  padding-left: 1005px;
+  text-align: left;
+}
+#f2 {
+  font-size: 25px;
+  position: absolute;
+  top: 4604px;
+  padding-top: 200px;
+  padding-left: 1305px;
+  text-align: left;
+}
